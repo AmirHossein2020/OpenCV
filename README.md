@@ -1,46 +1,58 @@
-# 👀 OpenCV Fun Projects Collection
+<h1 align="center">🎯 OpenCV Fun Projects Collection</h1>
 
-A collection of **Computer Vision** mini-projects created with **OpenCV** in Python.  
-From **face detection** to **gesture recognition** and even **eye tracking**, these projects were built for learning, experimenting, and having fun while diving into the world of **image processing** and **real-time computer vision**.
-
----
-
-## 📂 Projects Included
-
-| Project Name | Description | Tech Used |
-|--------------|-------------|-----------|
-| 🧑‍🦱 Face Detection | Detects faces in real-time using Haar Cascades or DNN models. | OpenCV, Haar Cascades |
-| ✊✋✌ Rock-Paper-Scissors | Play against the computer using hand gesture recognition. | OpenCV, Mediapipe |
-| ✋ Finger Counting | Detects and counts fingers using contour analysis or landmark detection. | OpenCV, Mediapipe |
-| 👁 Eye Tracking | Tracks eye movement in real-time using facial landmarks. | OpenCV, Dlib/Mediapipe |
+<p align="center">
+A vibrant collection of <b>Computer Vision</b> mini-projects made with <b>OpenCV</b> in Python.  
+From <b>Face Detection</b> to <b>Eye Tracking</b>, and even <b>Rock-Paper-Scissors</b> with gesture control.  
+All created for <b>learning, experimenting, and having fun</b> while mastering real-time image processing.
+</p>
 
 ---
 
-## ✨ Features
+## 📂 **What's Inside**
 
-- Real-time camera feed processing
-- Accurate face and hand detection
-- Interactive Rock-Paper-Scissors game
-- Finger count detection with high accuracy
-- Eye movement tracking for fun experiments
-- Easy-to-read and modular Python code
-
----
-
-## 🛠 Technologies Used
-
-- **Python 3**
-- **OpenCV** – Image & video processing
-- **Mediapipe** – Hand & face landmarks detection
-- **Dlib** – Facial landmarks & eye tracking (optional)
-- **NumPy** – Array operations
-- **Math & Geometry** – Gesture recognition logic
+| 🚀 Project | 📝 Description | 🛠 Tech |
+|-----------|----------------|--------|
+| 🧑‍🦱 **Face Detection** | Detects faces in real-time using Haar Cascades or DNN models. | OpenCV, Haar Cascades |
+| ✊✋✌ **Rock-Paper-Scissors** | Play against the computer using hand gesture recognition. | OpenCV, Mediapipe |
+| ✋ **Finger Counting** | Counts raised fingers using contour or landmark detection. | OpenCV, Mediapipe |
+| 👁 **Eye Tracking** | Tracks eye movement with precision using facial landmarks. | OpenCV, Dlib/Mediapipe |
 
 ---
 
-## 🚀 How to Run
+## ✨ **Key Features**
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/opencv-fun-projects.git
-   cd opencv-fun-projects
+✅ Real-time camera feed processing  
+✅ Accurate hand & face detection  
+✅ Interactive **Rock-Paper-Scissors** gameplay  
+✅ Finger counting with high accuracy  
+✅ Fun **eye movement tracking**  
+✅ Modular, clean Python code  
+
+---
+
+## 🛠 **Technologies**
+
+- 🐍 **Python 3**
+- 🎥 **OpenCV** – Image & video processing
+- ✋ **Mediapipe** – Hand & face landmarks detection
+- 👁 **Dlib** – Facial landmarks (optional)
+- 📊 **NumPy** – Array operations
+- 📐 **Math & Geometry** – Gesture recognition logic
+
+---
+
+## 🚀 **How to Run**
+
+```bash
+# 1️⃣ Clone the repo
+git clone https://github.com/your-username/opencv-fun-projects.git
+cd opencv-fun-projects
+
+# 2️⃣ Install dependencies
+pip install -r requirements.txt
+
+# 3️⃣ Run any project
+python face_detection.py
+python rock_paper_scissors.py
+python finger_counting.py
+python eye_tracking.py
